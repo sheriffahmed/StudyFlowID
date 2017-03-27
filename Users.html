@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Users</title>
+<html><head>
+    <title>Users</title>
 <style type="text/css">
-
 body {
-	background: rgb(240,240,240);
+    background: rgb(240,240,240);
 }
-
 div {
-	position: center;	
-	padding: 5px;
+    position: center;   
+    padding: 5px;
 }
 input[type=text], input[type=password] {
     width: 100%;
@@ -36,29 +32,147 @@ button {
     background-color: #f44336;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+}
 
+.container {
+    padding: 0 16px;
+    height: 300px;
+
+}
+
+.JohnDoe1 {
+    color: grey;
+    font-size: 18px;
+}
+.JohnDoe2 {
+    color: grey;
+    font-size: 18px;
+}
+.JohnDoe3 {
+    color: grey;
+    font-size: 18px;
+}
+
+td {
+    padding: 20px;
+
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.profilePic {
+    max-width: 200px; 
+    max-height: 150px;
+
+}
 </style>
 </head>
 <body>
-	<h1>Sign Up</h1>
-	<form action="/action_page.php">
- 		<div class="container">
-			<label><b>Email</b></label><br>
-				<input type="text" placeholder="Enter Email" name="email" required> <br />
 
-			<label><b>Password</b></label><br>
-				<input type="password" placeholder="Enter Password" name="psw" required><br>
+<table>
+<tbody><tr>
+<td>
+<div class="card">
+  <img class="profilePic" alt="John" src="https://thumbs.dreamstime.com/z/no-user-profile-picture-24185395.jpg">
+  <div class="container">
+    <h1>John Doe1</h1>
+    <p class="JohnDoe1">CEO &amp; Founder, Example</p>
+    <p>Harvard University</p>
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a> 
+    <a href="#"><i class="fa fa-linkedin"></i></a> 
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+    <p><button>Contact</button></p>
+  </div>
+</div>
+</td>
+<td>
+<div class="card">
+  <img class="profilePic" alt="John" src="http://res.freestockphotos.biz/pictures/7/7888-illustration-of-a-profile-of-a-womans-face-pv.png">
+  <div class="container">
+    <h1>John Doe</h1>
+    <p class="JohnDoe2">CEO &amp; Founder, Example</p>
+    <p>Harvard University</p>
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a> 
+    <a href="#"><i class="fa fa-linkedin"></i></a> 
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+    <p><button>Contact</button></p>
+  </div>
+</div>
+</td>
+<td>
+<div class="card">
+  <img class="profilePic" alt="John" src="https://static.pexels.com/photos/134674/pexels-photo-134674.jpeg">
+  <div class="container">
+    <h1>John Doe</h1>
+    <p class="JohnDoe3">CEO &amp; Founder, Example</p>
+    <p>Harvard University</p>
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a> 
+    <a href="#"><i class="fa fa-linkedin"></i></a> 
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+    <p><button>Contact</button></p>
+  </div>
+</div>
+</td>
 
-			<label><b>Repeat Password</b></label><br>
-				<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+</tr>
 
-	<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+</tbody></table>
+    <h1>Sign Up</h1>
+    <form action="/action_page.php">
+        <div class="container">
+            <label><b>Email</b></label><br>
+                <input name="email" required="" type="text" placeholder="Enter Email"> <br>
 
-	<div class="clearfix">
-		<button type="button"  class="cancelbtn">Cancel</button>
-		<button type="submit" class="signupbtn">Sign Up</button>
-		</div>
-	</div>	
-	</form>
-</body>
-</html>
+            <label><b>Password</b></label><br>
+                <input name="psw" required="" type="password" placeholder="Enter Password"><br>
+
+            <label><b>Repeat Password</b></label><br>
+                <input name="psw-repeat" required="" type="password" placeholder="Repeat Password">
+
+    <p>By creating an account you agree to our <a href="#">Terms &amp; Privacy</a>.</p>
+
+    <div class="clearfix">
+        <button class="cancelbtn" type="button">Cancel</button>
+        <button class="signupbtn" type="submit">Sign Up</button>
+        </div>
+    </div>  
+    </form>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+</body></html>
