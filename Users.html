@@ -1,5 +1,6 @@
 <html><head>
     <title>Users</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 body {
     background: url("C://Users//Dream//Desktop//stageMicrophone.jpg"); rgb(240,240,240) 
@@ -48,7 +49,9 @@ button {
     text-align: center;
     width: 300px;
     height: 470px;
-    background-color: rgba(50, 69, 240, 0.2);
+    background-color: rgba(16, 18, 20, 0.8);
+    border: dotted #ff5050 2px;
+
 }
 
 .container {
@@ -100,8 +103,10 @@ button:hover, a:hover {
 }
 
 .profilePic {
-    max-width: 200px; 
-    max-height: 150px;
+height: 150px;
+width: 150px;
+border-radius: 100px;
+
 
 }
 .cancelbtn {
@@ -182,27 +187,38 @@ button:hover, a:hover {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
+.textbox {
+width: 1200px;
+background-color: rgba(36, 38, 40, 0.8);
+border: solid #ffcc99 1px;
+padding: 75px 20px 20px 20px;
+text-align: center;
+border-radius: 25px;
+margin: -100px auto 10px auto;
+height: 700px;
 
+} 
 </style>
 </head>
 <body>
 
 <ul>
     
-    <li><a href="C://Users//Demo//Documents//StudyFlowID//BioWebsite//BioAbout.html" style="color: white;"> Flow Study
+    <li><a href="C:/Users/Dream/Desktop/StudyFlowID/StudyFlowPage.html" style="color: white;"> Study Flow
     </a></li>
-    <li><a href="C://Users//Demo//Documents//StudyFlowID//BioWebsite//BioContact.html" style="color: white;"> Flow Practice</a></li>
-    <li><a href="C://Users//Demo//Documents//StudyFlowID//Users.html" style="color: white;"> Users</a></li>
+    <li><a href="C:/Users/Dream/Desktop/StudyFlowID/PracticeFlow.html" style="color: white;"> Flow Practice</a></li>
+    <li><a href="C:/Users/Dream/Desktop/StudyFlowID/upload2.html" style="color: white;"> Uploads</a></li>
 
     </ul>
-<div style="margin-left: 100px; margin-top: -75px;"><h2 style="text-align: left; color: white;">Flow-Study I.D</h2></div>
+<div style="margin-left: 100px; margin-top: -75px;"><a href="C:/Users/Dream/Desktop/StudyFlowID/index2.html"><h2 style="text-align: left; color: white; text-shadow: 2px 2px rgba(20, 200, 255, 0.6);">Flow-Study I.D</h2></a></div>
 
 <h1 style="text-align: center; color: white;">Users</h1>
+<div class="textbox">
 <table style="margin: auto;">
 <tbody><tr>
 <td>
 <div class="card">
-  <img class="profilePic" alt="John" src="https://thumbs.dreamstime.com/z/no-user-profile-picture-24185395.jpg">
+  <img class="profilePic" alt="John" style="margin: 20px 0 0 0;" src="https://thumbs.dreamstime.com/z/no-user-profile-picture-24185395.jpg">
   <div class="container">
     <h1>Sheriff</h1>
     <p class="JohnDoe1">CEO &amp; Founder, Example</p>
@@ -217,7 +233,7 @@ button:hover, a:hover {
 </td>
 <td>
 <div class="card">
-  <img class="profilePic" alt="John" src="http://res.freestockphotos.biz/pictures/7/7888-illustration-of-a-profile-of-a-womans-face-pv.png">
+  <img class="profilePic" alt="John" style="margin: 20px 0 0 0;" src="http://res.freestockphotos.biz/pictures/7/7888-illustration-of-a-profile-of-a-womans-face-pv.png">
   <div class="container">
     <h1>Michael</h1>
     <p class="JohnDoe2">CEO &amp; Founder, Example</p>
@@ -232,7 +248,7 @@ button:hover, a:hover {
 </td>
 <td>
 <div class="card">
-  <img class="profilePic" alt="John" style="padding: 20px 0 0 0;" src="https://static.pexels.com/photos/134674/pexels-photo-134674.jpeg">
+  <img class="profilePic" alt="John" style="margin: 20px 0 0 0;" src="https://static.pexels.com/photos/134674/pexels-photo-134674.jpeg">
   <div class="container">
     <h1>Benny</h1>
     <p class="JohnDoe3">CEO &amp; Founder, Example</p>
@@ -249,14 +265,14 @@ button:hover, a:hover {
 </tr>
 
 </tbody></table>
-<div style="position: top; margin-top: -528px; margin-left: 90%;">
-<button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+<div style="position: top; margin-top: -578px; margin-left: 90%;">
+<button onclick="document.getElementById('id01').style.display='block'" style="background-color: #1b0917">Sign Up</button>
 </div>
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
   <form class="modal-content animate" action="/action_page.php">
     <div class="container2" style="background-size: 200px;">
-
+</div>
 
     <h1>Sign Up</h1>
     <form action="/action_page.php">

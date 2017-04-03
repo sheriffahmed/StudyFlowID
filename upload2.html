@@ -4,21 +4,66 @@
 <style type="text/css">body {
     background-image: url("http://www.northstateav.com/wp-content/uploads/2015/11/lights1.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    margin-right: 200px;
+    background-position: center;
+
     background-attachment: fixed;
     background-size: cover;
+          font-family: helvetica;
 }
-h1 {
+body {
 color: white;
+text-align: center;
 }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.8);
+      text-align: center;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}    
+.textbox {
+width: 500px;
+background-color: rgba(36, 38, 40, 0.8);
+border: dotted #ff5050 2px;
+padding: 2px 20px 20px 20px;
+text-align: center;
+border-radius: 25px;
+margin: 50px auto 10px auto;
+
+}  
+
 </style>
 </head>
-<body><form action="upload.php" method="post" enctype="multipart/form-data">
+<body>
+<ul>
+    
+    <li><a href="C:/Users/Dream/Desktop/StudyFlowID/StudyFlowPage.html" style="color: white;"> Study Flow
+    </a></li>
+    <li><a href="C://Users//Demo//Documents//StudyFlowID//BioWebsite//BioContact.html" style="color: white;"> Flow Practice</a></li>
+    <li><a href="C:/Users/Dream/Desktop/StudyFlowID/Users.html" style="color: white;"> Users</a></li>
+
+    </ul>
+<div style="margin-left: 100px; margin-top: -75px;"><a href="C:/Users/Dream/Desktop/StudyFlowID/index2.html"><h2 style="text-align: left; color: white; text-shadow: 2px 2px rgba(20, 200, 255, 0.6);">Flow-Study I.D</h2></a></div>
+
+     <h1>Uploads</h1>
+     <div class="textbox">
+     <p>Upload your songs and flow mixes here: 
+     <br>
+     <form action="upload.php" method="post" enctype="multipart/form-data">
     Select image to upload:
     <input type="file" name="fileToUpload" id="fileToUpload">
-     </form>
-     <h1>Upload your songs and flow mixes here</h1>
+     </form></p> </div>
 
      </body>
 </html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flow Practice</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+    body {
+      text-align: center;
+      background: linear-gradient(to top right, #1b0917 0%, #040816 100%);
+      background-size: cover;
+      background-position: center;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      color: white;
+      font-family: helvetica;
+    }		
+		ul {
+
+      		padding: 10px;
+      background: rgba(0,0,0,0.8);
+      text-align: center;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,300italic,300,700,800,800italic);
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #417088;
+}
+.fadeOut {
+  opacity: 0.6;
+}
+.fadeIn {
+  opacity: 1;
+}
+#__drop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 5px dashed black;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.4);}
+  
+  &.hidden {
+    display: none;
+  }
+
+  &.show {
+    display: block;
+  }
+
+
+
+#waveforms {
+  width: 820px;
+  position: relative;
+  top: 200px;
+  margin-left: 23%;
+  height: 150px;
+}
+
+  
+  h1 {
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+  }
+}
+#view2 {
+  pointer-events: none;
+}
+
+
+	</style>
+</head>
+<body>
+<ul>
+    
+    <li><a href="C:/Users/Dream/Desktop/StudyFlowID/upload2.html" style="color: white;"> Uploads
+    </a></li>
+    <li><a href="C:/Users/Dream/Desktop/StudyFlowID/StudyFlowPage.html" style="color: white;"> Study Flow</a></li>
+    <li><a href="C:/Users/Dream/Desktop/StudyFlowID/Users.html" style="color: white;"> Users</a></li>
+
+    </ul>
+<div style="margin-left: 100px; margin-top: -75px;"><a href="C:/Users/Dream/Desktop/StudyFlowID/index2.html"><h2 style="text-align: left; color: white; text-shadow: 2px 2px rgba(20, 200, 255, 0.6);">Flow-Study I.D</h2></a></div>
+<h1>Flow Practice</h1>
+
+
+<h1>Drag and Drop mp3 file</h1>
+<br/>
+<audio id="audio" controls></audio>
+<div id="__drop" class="hidden"></div>
+<div id="header">
+  <h1 id="music_title"></h1>
+</div>
+<div id="waveforms">
+  <canvas id="view1" class="canvas" width="820"></canvas>
+  <canvas id="view3" class="canvas" width="820"></canvas>
+  <canvas id="view2" class="canvas" width="820"></canvas>
+</div>
+
+
+
+</body>
+</html>
